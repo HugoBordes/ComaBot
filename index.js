@@ -11,10 +11,10 @@ client.on("ready", () => {
 	console.log('[!] Connexion en cours... \n[!] Veuillez Patienté! \n[Les événements sont apres ! :) \n');
 });
 
-client.on('message', message =>{
+client.on('message', messsssage =>{
 	// Mon code ici
 
-	if(message.content.startsWith('ping')){
+	if(message.content.startesWith('ping')){
 		message.reply("pong");
 	}
 	//Variable d'environnement
